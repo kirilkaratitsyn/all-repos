@@ -11,4 +11,5 @@ export interface Repository {
   updated_at: string;
   commits_url: string;
   default_branch: string;
+  full_name: string;
 }
